@@ -1,0 +1,34 @@
+.weatherDetails {
+  /* border: 0.5px solid #4d4c4c; */
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #dcdbdb;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1px #fff;
+}
+
+.parameter-row {
+  display: block;
+  /* justify-content: space-between; */
+}
+
+.parameter-label {
+  /* text-align: left; */
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.parameter-value {
+  /* text-align: right; */
+  font-weight: 600;
+  font-size: 12px;
+}
+
+@media (max-width: 375px) {
+  .weatherDetails {
+    margin: 5px auto;
+  }
+}

@@ -1,0 +1,51 @@
+.container {
+  max-width: 1080px;
+  margin: 20px auto;
+}
+
+.navbar {
+  flex: 1 1;
+  grid-row-gap: 0;
+  grid-column-gap: 10px;
+  row-gap: 0;
+  column-gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 5px 10px;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+}
+
+.navbar p {
+  margin: 0;
+  font-weight: 600;
+  margin: auto 10px;
+}
+
+.navbar_item {
+  display: flex;
+}
+
+.content {
+  display: flex;
+}
+
+.contents_1 {
+  width: 35%;
+}
+.contents_2 {
+  width: 65%;
+}
+
+@media (max-width: 500px) {
+  .content {
+    display: block;
+  }
+  .contents_1,
+  .contents_2 {
+    width: 100% !important;
+  }
+}
